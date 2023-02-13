@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Карточка товара</title>
+    <link rel="stylesheet" href="css/tovarcard.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="header__row">
+                <div class="header__item__burger">
+                    <span></span>
+                </div>
+                <div class="header__item__list">
+                    <p>NEW</p>
+                    <p class="header__item__pointed">Каталог</p>
+                    <p>О нас</p>
+                </div>
+                <div class="header__item__title title"><p>YANKI</p></div>
+                <div class="header__item__setting">
+                    <div class="setting__language"><p>ru</p></div>
+                    <div class="setting__currency"><p>uah</p></div>
+                </div>
+                <div class="header__item__icons">
+                    <img src="pictures/icons/search.svg">
+                    <img src="pictures/icons/profile.svg">
+                    <img src="pictures/icons/likelist.svg">
+                    <img src="pictures/icons/cort.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="content__wrapper">
+    <div class="container">
+        <div class="product__body">
+            <div class="product__body__row">
+                <div class="nav__hierarchy">
+                    <p>Главная</p>
+                    <p>Каталог</p>
+                    <p>Пальто</p>
+                    <p>Кремовое пальто</p>
+                </div>
+                <div class="product__body__product">
+                    <div class="product__image">
+                        <div class="product__image__small_images">
+                            <img src="pictures/product/1.png" alt="">
+                            <img src="pictures/product/2.png" alt="">
+                            <img src="pictures/product/3.png" alt="">
+                            <img src="pictures/product/4.png" alt="">
+                            <img src="pictures/product/5.png" alt="">
+                        </div>
+                        <div class="product__image__main_image">
+                            <img src="pictures/product/6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="product__information">
+                        <div class="product__information__name">
+                            <h3>Кремовое пальто</h3>
+                        </div>
+                        <div class="product__information__price">
+                            <h4>3150 грн</h4>
+                        </div>
+                        <div class="product__information__color">
+                            <div class="color__selector">
+                                <label class="color__select__radio">
+                                    <input type="radio" name="color" id="red" value="red">
+                                    <span class="color__radio white"></span>
+                                </label>
+                                <label class="color__select__radio">
+                                    <input type="radio" name="color" id="blue" value="blue">
+                                    <span class="color__radio purple"></span>
+                                </label>
+                                <label class="color__select__radio">
+                                    <input type="radio" name="color" id="green" value="green" checked>
+                                    <span class="color__radio coffee_with_milk"></span>
+                                </label>
+                            </div>
+                            <p class="color__name">Цвет: Кофе с молоком меланж</p>
+                        </div>
+                        <div class="product__information__size">
+                            <label class="product__size__select">
+                                <input class="product__size" type="text" placeholder="Выберете размер">
+                                <img src="pictures/icons/vectorDown.svg">
+                            </label>
+                        </div>
+                        <div class="product__information__buttons">
+                            <label class="buttons__item">
+                                <input class="button_to_cort" type="button" value="В корзину">
+                            </label>
+                            <label class="buttons__item">
+                                <input class="button_to_like" type="button" value="В избраное">
+                                <img src="pictures/icons/likelist.svg">
+                            </label>
+                        </div>
+                        <div class="product__information__details">
+                            <h3>Подробности</h3>
+                            <div class="details__item">
+                                <div class="details__title">Обмеры и описание</div>
+                                <div class="details__text">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Autem, consequuntur debitis
+                                    earum eligendi et ipsum minus molestiae molestias neque
+                                    nostrum odio placeat praesentium quae quaerat quasi quo
+                                    rerum tempore vero?</div>
+                            </div>
+                            <hr>
+                            <div class="details__item">
+                                <div class="details__title">Состав и уход</div>
+                                <div class="details__text">Состав: 50% Шерсть, 50% Полиэстер
+                                    Подкладка: 100% Полиэстер
+                                    Утеплитель: 90% Пух, 10% Перо
+
+                                    - Не стирать
+                                    - Гладить при температуре утюга до 110°C
+                                    - Не отбеливать
+                                    - Сухая чистка (химчистка)
+                                    - Барабанная сушка запрещена</div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__body__whole_image">
+                    <h3>Весь образ</h3>
+                    <div class="whole_images">
+                        <div class="whole_images__item">
+                            <div class="whole_images__item__image">
+                                <div class="whole_images__item__to_like"></div>
+                                <img src="pictures/product/7.png" alt="">
+                            </div>
+                            <div class="whole_images__item__title">
+                                <h3>Белая куртка</h3>
+                            </div>
+                            <div class="whole_images__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="whole_images__item__size">
+                                <p>XXS</p>
+                                <p>XS</p>
+                                <p>S</p>
+                                <p>M</p>
+                                <p>L</p>
+                            </div>
+                            <div class="whole_images__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="whole_images__item">
+                            <div class="whole_images__item__image">
+                                <div class="whole_images__item__to_like"></div>
+                                <img src="pictures/product/7.png" alt="">
+                            </div>
+                            <div class="whole_images__item__title">
+                                <h3>Белая куртка</h3>
+                            </div>
+                            <div class="whole_images__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="whole_images__item__size">
+                                <p>XXS</p>
+                                <p>XS</p>
+                                <p>S</p>
+                                <p>M</p>
+                                <p>L</p>
+                            </div>
+                            <div class="whole_images__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__body__complete_image">
+                    <h3>Дополните образ</h3>
+                    <div class="complete_images">
+                        <div class="complete_image__item">
+                            <div class="complete_image__item__image">
+                                <div class="complete_image__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="complete_image__item__title">
+                                <h3>Бежевая шуба</h3>
+                            </div>
+                            <div class="complete_image__item__price">
+                                <h4>4200 грн</h4>
+                            </div>
+                            <div class="complete_image__item__size">
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>l</p>
+                            </div>
+                            <div class="complete_image__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="complete_image__item">
+                            <div class="complete_image__item__image">
+                                <div class="complete_image__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="complete_image__item__title">
+                                <h3>Бежевая шуба</h3>
+                            </div>
+                            <div class="complete_image__item__price">
+                                <h4>4200 грн</h4>
+                            </div>
+                            <div class="complete_image__item__size">
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>l</p>
+                            </div>
+                            <div class="complete_image__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="complete_image__item">
+                            <div class="complete_image__item__image">
+                                <div class="complete_image__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="complete_image__item__title">
+                                <h3>Бежевая шуба</h3>
+                            </div>
+                            <div class="complete_image__item__price">
+                                <h4>4200 грн</h4>
+                            </div>
+                            <div class="complete_image__item__size">
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>l</p>
+                            </div>
+                            <div class="complete_image__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="complete_image__item">
+                            <div class="complete_image__item__image">
+                                <div class="complete_image__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="complete_image__item__title">
+                                <h3>Бежевая шуба</h3>
+                            </div>
+                            <div class="complete_image__item__price">
+                                <h4>4200 грн</h4>
+                            </div>
+                            <div class="complete_image__item__size">
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>l</p>
+                            </div>
+                            <div class="complete_image__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__body__must_liked">
+                    <h3>Вам может понравиться</h3>
+                    <div class="must_liked">
+                        <div class="must_liked__item">
+                            <div class="must_liked__item__image">
+                                <div class="must_liked__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="must_liked__item__title">
+                                <h3>Синяя парка</h3>
+                            </div>
+                            <div class="must_liked__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="must_liked__item__size">
+                                <p>xxs</p>
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>m</p>
+                                <p>l</p>
+                            </div>
+                            <div class="must_liked__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="must_liked__item">
+                            <div class="must_liked__item__image">
+                                <div class="must_liked__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="must_liked__item__title">
+                                <h3>Синяя парка</h3>
+                            </div>
+                            <div class="must_liked__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="must_liked__item__size">
+                                <p>xxs</p>
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>m</p>
+                                <p>l</p>
+                            </div>
+                            <div class="must_liked__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="must_liked__item">
+                            <div class="must_liked__item__image">
+                                <div class="must_liked__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="must_liked__item__title">
+                                <h3>Синяя парка</h3>
+                            </div>
+                            <div class="must_liked__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="must_liked__item__size">
+                                <p>xxs</p>
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>m</p>
+                                <p>l</p>
+                            </div>
+                            <div class="must_liked__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="must_liked__item">
+                            <div class="must_liked__item__image">
+                                <div class="must_liked__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="must_liked__item__title">
+                                <h3>Синяя парка</h3>
+                            </div>
+                            <div class="must_liked__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="must_liked__item__size">
+                                <p>xxs</p>
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>m</p>
+                                <p>l</p>
+                            </div>
+                            <div class="must_liked__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product__body__recently_watched">
+                    <h3>Вы недавно смотрели</h3>
+                    <div class="recently_watched">
+                        <div class="recently_watched__item">
+                            <div class="recently_watched__item__image">
+                                <div class="recently_watched__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="recently_watched__item__title">
+                                <h3>Синяя парка</h3>
+                            </div>
+                            <div class="recently_watched__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="recently_watched__item__size">
+                                <p>xxs</p>
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>m</p>
+                                <p>l</p>
+                            </div>
+                            <div class="recently_watched__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="recently_watched__item">
+                            <div class="recently_watched__item__image">
+                                <div class="recently_watched__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="recently_watched__item__title">
+                                <h3>Синяя парка</h3>
+                            </div>
+                            <div class="recently_watched__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="recently_watched__item__size">
+                                <p>xxs</p>
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>m</p>
+                                <p>l</p>
+                            </div>
+                            <div class="recently_watched__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+                        <div class="recently_watched__item">
+                            <div class="recently_watched__item__image">
+                                <div class="recently_watched__item__to_like"></div>
+                                <img src="pictures/product/9.png">
+                            </div>
+                            <div class="recently_watched__item__title">
+                                <h3>Синяя парка</h3>
+                            </div>
+                            <div class="recently_watched__item__price">
+                                <h4>2900 грн</h4>
+                            </div>
+                            <div class="recently_watched__item__size">
+                                <p>xxs</p>
+                                <p>xs</p>
+                                <p>s</p>
+                                <p>m</p>
+                                <p>l</p>
+                            </div>
+                            <div class="recently_watched__item__colors">
+                                <span class="white"></span>
+                                <span class="purple"></span>
+                                <span class="coffee_with_milk"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer__body">
+            <div class="footer__row">
+                <div class="footer__column">
+                    <div class="footer__item">
+                        <div class="footer__subtitle">КОМПАНИЯ</div>
+                        <div class="footer__text">
+                            <p>О нас</p>
+                            <p>Контакты</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__item">
+                        <div class="footer__subtitle">ПОЛЕЗНОЕ</div>
+                        <div class="footer__text">
+                            <p>Оплата и доставка</p>
+                            <p>Условия возврата</p>
+                            <p>Бонусная система</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__item">
+                        <div class="footer__subtitle">ПОКУПАТЕЛЮ</div>
+                        <div class="footer__text">
+                            <p>Избранное</p>
+                            <p>Публичная оферта</p>
+                            <p>Политика конфиденциальности</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__item">
+                        <div class="footer__subtitle">КОНТАКТЫ</div>
+                        <div class="footer__text">
+                            <div class="footer__icon">
+                                <img src="pictures/icons/mainPage/instagram.png">
+                                <img src="pictures/icons/mainPage/telegram.png">
+                            </div>
+                            <p>+38(073) 096 36 44</p>
+                            <p>info@yanki.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright" >©️ 2021 Yanki. All rights reserved</div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
